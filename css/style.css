@@ -1,35 +1,58 @@
-*{
+* {
     margin: 0px;
     box-sizing: border-box;
 }
 
-/* Top page style */
-header{ 
-    height: 100px;
-    background-image: url("/images/pattern.png") ;
-    background-color:cornflowerblue ;
-    background-size: 50%;
-    margin-left: 0px;
-    ;       
+main, h1{
+    width: 95%;
+    margin: auto;
 }
-#booleaner_logo{
-       margin-top: 40px;     
+
+/* Top page style */
+header {
+    height: 100px;
+    background-image: url("../images/pattern.png");
+    background-color: cornflowerblue;
+    background-size: 70%;
+    background-position: center;
+}
+
+#booleaner_logo {
+    margin-top: 40px;
 }
 
 /* Title positioning */
-h1{
+h1 {
     margin-left: 5px;
     margin-bottom: 0px;
-}   
-#credits{
+}
+
+#credits {
     color: gray;
     margin-top: 5px;
-    margin-left: 5px;   
+    margin-left: 5px;
 }
 
 /*To fix image positioning*/
-.tim{
-    margin-top: 140px;
-    margin-left: 5px;
-    
+.tim {
+    margin-top: 100px;
+    position: relative ;
+
+}
+
+.table_cell_size {
+    width: 250px;
+}
+
+.advcontainer {
+    margin: 10px;
+    position: relative;
+}
+
+.advtext {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+
 }
