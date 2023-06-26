@@ -1,13 +1,14 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-main, h1{
-    width: 95%;
+main, footer{
+    max-width: 90%;
+    padding: auto;
     margin: auto;
 }
-
 /* Top page style */
 header {
     height: 100px;
@@ -19,24 +20,27 @@ header {
 
 #booleaner_logo {
     margin-top: 40px;
+    max-width: 200px
 }
 
 /* Title positioning */
 h1 {
-    margin-left: 5px;
-    margin-bottom: 0px;
+    padding: 10px;
 }
 
 #credits {
     color: gray;
-    margin-top: 5px;
-    margin-left: 5px;
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
 }
 
 /*To fix image positioning*/
 .tim {
-    margin-top: 100px;
-    position: relative ;
+    max-width: 90%;
+    margin-top: 130px;
+    position: relative;
+    padding: auto;
 
 }
 
@@ -45,7 +49,7 @@ h1 {
 }
 
 .advcontainer {
-    margin: 10px;
+    margin:auto;
     position: relative;
 }
 
@@ -56,3 +60,4 @@ h1 {
     color: white;
 
 }
+
